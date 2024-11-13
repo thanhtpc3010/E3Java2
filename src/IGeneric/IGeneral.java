@@ -3,9 +3,9 @@ package IGeneric;
 import java.util.List;
 
 public interface IGeneral<T> {
-    void add(T entity);
-    T getById(String id);
-    void deleteById(String id);
-    List<T> getAll();
+    void create(T t);
+    T read(int id);
+    void update(T t);
+    void delete(int id);
 }
 

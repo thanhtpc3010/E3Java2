@@ -1,21 +1,21 @@
 package Entity;
 
 public class Room {
-    private String id;
+    private int id;
     private roomType roomType;
     private double price_per_hour;
 
-    public Room(String id, Entity.roomType roomType, double price_per_hour) {
+    public Room(int id, Entity.roomType roomType, double price_per_hour) {
         this.id = id;
         this.roomType = roomType;
         this.price_per_hour = price_per_hour;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
